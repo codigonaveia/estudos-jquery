@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/page.css"/>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body>
+   <div class="container">
+    <div class="container-formulario">
+        <h1>Cadastrar item na tabela</h1>
+    <form>
+        <div class="col">
+            <input type="text" class="form-control" 
+            placeholder="First name" 
+            aria-label="First name"
+            id="nome"
+            name="nome"
+            >
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" 
+            placeholder="Last name" 
+            aria-label="Last name"
+            id="sobrenome"
+            name="sobrenome"
+            >
+          </div>
+          <button type="button" class="btn btn-success btnCadastrar">Cadastrar</button>
+    </form>
+    <table class="table table-clientes">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>SobreNome</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+   <h4>Dados do Json</h4>
+    <table class="table table-clientes-json">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>SobreNome</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    </div>
+    <hr style="border: dashed;">
+    <div class="quadroResumo">
+        <h4>QUADRO RESUMO</h4>
+        <hr>
+    </div>
+   </div>
+   <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+   <script src="../node_modules/jquery/dist/jquery.js"></script>
+   <script src="../js/page.js"></script>
+</body>
+</html>
