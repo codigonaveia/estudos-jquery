@@ -8,25 +8,19 @@
     <link rel="stylesheet" href="../css/page.css"/>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
 </head>
-
 <body>
-    <header>
-        <h1>Tutoria diario de aprendizado jquery</h1>
-    </header>
-    <nav class="menu">
-        
-            <ul>
-                <li><a href="Aula1.html">Aula 01</a></li>
-                <li><a href="Aula2.html">Aula 02</a></li>
-                <li><a href="Aula2.html">MUDAR COR</a></li>
-            </ul>
-      
-    </nav>
    <div class="container">
-   
-     </div>
+   <button type="button" class="btn btn-success" onclick="AlterarCoresPagina(1)">Cor Vermelha</button>
+   <button type="button" class="btn btn-warning" onclick="AlterarCoresPagina(2)">Cor amarela</button>
+   <button type="button" class="btn btn-primary" onclick="AlterarCorSlideUp()">slide up</button>
+   <div class="quadro" style="background-color: black;">
+    <h1>Mudar cor conforme botao</h1>
+    <h5 id="divSlideup">Aqui mudara a cor com Slide Up</h5>
+   </div>
+   </div>
    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
    <script src="../node_modules/jquery/dist/jquery.js"></script>
    <script src="../js/page.js"></script>
+   <script src="../js/alterarcCores.js"></script>
 </body>
 </html>

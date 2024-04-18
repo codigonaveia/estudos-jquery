@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/page.css"/>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body>
+   <div class="container">
+    <p>
+        Adicionar novo conteúdo HTML
+Veremos quatro métodos jQuery usados ​​para adicionar novo conteúdo:
+
+append()- Insere conteúdo no final dos elementos selecionados
+prepend()- Insere conteúdo no início dos elementos selecionados
+after()- Insere conteúdo após os elementos selecionados
+before()- Insere conteúdo antes dos elementos selecionados
+    </p>
+   <button type="button" class="btn btn-success" onclick="AlterarCoresPagina(1)">Cor Vermelha</button>
+   <button type="button" class="btn btn-warning" onclick="AlterarCoresPagina(2)">Cor amarela</button>
+   <button type="button" class="btn btn-primary" onclick="AlterarCorSlideUp()">slide up</button>
+   <div class="quadro" style="background-color: black;">
+    <h1>Mudar cor conforme botao</h1>
+    <h5 id="divSlideup">Aqui mudara a cor com Slide Up</h5>
+   </div>
+   </div>
+   <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+   <script src="../node_modules/jquery/dist/jquery.js"></script>
+   <script src="../js/page.js"></script>
+   <script src="../js/alterarcCores.js"></script>
+</body>
+</html>
